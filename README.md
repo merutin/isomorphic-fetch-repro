@@ -7,3 +7,9 @@ yarn
 yarn webpack
 node .webpack/main.js
 ```
+
+## how not to reproduce
+
+```shell
+node src/modules/withFetch/index.js
+```
