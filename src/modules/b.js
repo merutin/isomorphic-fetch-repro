@@ -1,1 +1,0 @@
-export const WITHOUT_DEFAULT = ()=>require('./a')()

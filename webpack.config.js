@@ -1,9 +1,8 @@
 const path = require('path');
-const webpack = require('webpack')
 
 module.exports = {
   context: __dirname,
-  entry: './src/modules/index.js',
+  entry: './src/modules/withFetch/index.js',
   resolve: {
     extensions: ['.mjs', '.json', '.ts', '.js'],
     symlinks: false,
